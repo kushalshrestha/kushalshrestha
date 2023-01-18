@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* .test {
+    margin: 5px;
+    border: 2px solid black;
+} */
+
+.center-div {
+    /* border: 2px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+}
+
+.d-2-l {
+    float: left;
+    width: 50%;
+}
+
+.d-2-r {
+    margin-left: 50%;
+}
+
+.clear {
+    clear: both;
+    overflow: auto;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+div {
+    padding: 10px 5px;
+}
+
+p::first-letter {
+    font-size: 150%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+.bg-secondary {
+    background-color: #303030;
+    color: #ffffff;
+}
+
+.bg-secondary a {
+    /* background-color: #ffffff; */
+    color: #ffffff;
+}
+
+.bg-secondary>h1 {
+    background-color: #c44a67;
+    text-align: center;
+}
+
+.title-1 {
+    font-weight: 500;
+    font-size: 3em;
+}
+
+.subtitle {
+    background-color: #16e0bd;
+    padding: 10px 5px;
+    font-style: italic;
+    text-align: center;
+}
+
+dd>span {
+    border: 5px solid #e9e9e9;
+    background-color: #e9e9e9;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#behavior>img {
+    display: inline;
+    width: 300px;
+    height: 300px;
+}
