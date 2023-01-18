@@ -1,0 +1,52 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 18pt;
+    text-decoration: underline;
+}
+
+body>h1 {
+    font-size: 22pt;
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    background-color: #ffffff;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: #A4A400;
+}
+
+.deleted {
+    text-decoration: line-through;
+}
+
+.footer>span {
+    display: block;
+    font-family: monospace;
+}
+
+
+.comment-section {
+    font-style: italic;
+    background-color: #FFFFA8;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.recipe-info,
+#sitemap {
+    list-style: none;
+}
