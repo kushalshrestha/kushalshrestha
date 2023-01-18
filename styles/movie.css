@@ -73,6 +73,11 @@ h1 {
     height: 83px;
 }
 
+#rotten-pct {
+    position: relative;
+    top: -23px;
+}
+
 .review {
     padding: 20px 0px;
 }
