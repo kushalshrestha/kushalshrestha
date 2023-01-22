@@ -52,3 +52,7 @@ select {
     right: 0px;
     position: fixed;
 }
+
+.jshintLogo {
+    height: 31px;
+}
