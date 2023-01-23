@@ -17,7 +17,6 @@ window.onload = function () {
   };
 
   document.getElementById('fontsize').onchange = () => {
-    clearInterval(interval);
     animationArea.style.fontSize = animationSizeField.value;
   };
 
@@ -39,7 +38,6 @@ window.onload = function () {
   };
 
   document.getElementById('lbl-speed').onchange = () => {
-    clearInterval(interval);
     turboEnabled = document.getElementById('turbo').checked;
     animate();
   };
@@ -55,7 +53,7 @@ window.onload = function () {
 
   function animate() {
     turboSpeed = turboEnabled ? 50 : 250;
-    // clearInterval(interval);
+    clearInterval(interval);
     interval = setInterval(displayFrame, turboSpeed);
   }
 };
