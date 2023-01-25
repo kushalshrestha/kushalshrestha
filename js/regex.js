@@ -4,11 +4,7 @@ window.onload = function () {
     let websitePattern = '^(http)(|s)(://)';
     let websiteValue = document.getElementById('website').value;
 
-    if (
-      !passwordValue.match('[a-z]{1,}') ||
-      !passwordValue.match('[A-Z]{1,}') ||
-      !passwordValue.match('[0-9]{1,}')
-    ) {
+    if (!passwordValue.match('^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{10,}$')) {
       alert(
         'Password must have atleaset 10 characters in length and contain at least one number and one uppercase and lowercase letter'
       );
