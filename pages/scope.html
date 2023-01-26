@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/scope.js"></script>
+</head>
+
+<body>
+    <h3>Assignments</h3>
+    <pre>
+        1. OUTPUT:
+        <strong>
+            undefined
+            8
+            8
+            9
+            10
+            1
+        </strong>
+        2. ANSWER:
+        <strong>
+            Global Scope : 
+            * Global scope is the scope that contains all of the things defined outside of all code blocks. A global variable has a global scope and whenever an undeclared variable is assigned
+            with a value, the variable is also a part of global scope. Any variables assigned without an explicit scope (using the var, let, or const keywords) automatically become global variables. The same is true for functions.
+
+            Local Scope: It contains things defined inside a code blocks.
+            * Local variables cannot be accessed or modified outside the function declaration.
+        </strong>
+        3. 
+        (a) Do statements in Scope A have access to variables defined in Scope B and C?
+        A: No. Scope A cannot access to local scope.
+        (b) Do statements in Scope B have access to variables defined in Scope A?
+        A: Yes. Local Scope can access Global scope.
+        (c) Do statements in Scope B have access to variables defined in Scope C?
+        A: No. Scope B cannot access to child Scope C
+        (d) Do statements in Scope C have access to variables defined in Scope A?
+        A: Yes. Local Scope can access Global Scope
+        (e) Do statements in Scope C have access to variables defined in Scope B?
+        A: Yes. Scope C can access outer Scope B.
+
+        4. /* Question 4*/
+        var x = 9;
+        function myFunction() {
+          return x * x;
+        }
+        
+        console.log(myFunction()); // OUTPUT: 81
+        x = 5;
+        console.log(myFunction()); //OUTPUT: 25
+
+        5. /* Question 5 */
+        var foo = 1;
+        function bar() {
+          if (!foo) {
+            var foo = 10;
+          }
+          console.log(foo); //OUTPUT 10
+        }
+        bar();
+
+
+  </pre>
+</body>
+
+</html>

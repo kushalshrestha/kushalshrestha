@@ -22,3 +22,19 @@
 // add7();
 // add7();
 // add7(); // final counter value is 21
+
+var me = {
+  first: 'Josh',
+  last: 'Splinter',
+  getFullName: function () {
+    return this.first + ' ' + this.last;
+  },
+};
+
+var you = {
+  first: 'William',
+  last: 'Smith',
+};
+
+console.log(me.getFullName.apply(you));
+console.log(me.getFullName());
