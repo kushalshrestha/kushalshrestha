@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <title>Inheritance Quiz</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+    <script>
+        // initialize mocha
+        mocha.setup('bdd');
+        // chai has a lot of astuff, let's make assert global
+        let assert = chai.assert;
+
+    </script>
+
+    <script src="../js/inheritanceTest.js"></script>
+</head>
+
+<body cz-shortcut-listen="true">
+    <div>
+        <div id="mocha">
+            <ul id="mocha-stats">
+                <li class="progress"><canvas width="40" height="40"></canvas></li>
+                <li class="passes"><a href="javascript:void(0);">passes:</a> <em>0</em></li>
+                <li class="failures"><a href="javascript:void(0);">failures:</a> <em>0</em></li>
+                <li class="duration">duration: <em>0</em>s</li>
+            </ul>
+            <ul id="mocha-report"></ul>
+        </div>
+        <div style="margin: 5%;">
+            <p>3. create an object called Teacher derived from the Person class, and implement a method called teach
+                which receives a string called subject, and returns:[teacher's name] is now teaching [subject]</p>
+            <pre>
+                <code>
+                    var Person = function(){};
+    
+                    Person.prototype.initialize = function(name, age)
+                    {
+                     this.name = name;
+                     this.age = age;
+                    }
+    
+                    Person.prototype.describe = function()
+                    {
+                     return this.name + ", " + this.age + " years old.";
+                    }
+    
+                    function Teacher(){};
+    
+                    Teacher.prototype = new Person();
+    
+                    Teacher.prototype.teach = function(subject){
+                        return `${this.name} is now teaching ${subject}`;
+                    }
+                    let teacher = new Teacher();
+                    teacher.initialize("John",28);
+                    console.log("3. "+teacher.teach("Java"));
+                </code>
+            </pre>
+            <p><strong>See the console to see the output</strong></p>
+        </div>
+    </div>
+
+    <script>
+        mocha.run();
+
+    </script>
+
+
+
+</body>
+
+</html>
