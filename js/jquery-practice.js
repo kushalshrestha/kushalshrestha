@@ -63,6 +63,9 @@ $(() => {
 $('#b').val("This is the new button name").click(event....)   => USE THIS APPROACH
 
 
+* concurrency and the event loop
+
+
 NOT TO DO THIS APPROACH:
 jQueryObject.on(‘event’ , function); //jQuery way
 
