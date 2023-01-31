@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bank Accounts</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+    <script>
+        // initialize mocha
+        mocha.setup('bdd');
+        // chai has a lot of stuff, let's make assert global
+        let assert = chai.assert;
+    </script>
+
+
+    <script src="../js/account.js"></script>
+    <script src="../js/accountTest.js"></script>
+</head>
+
+<body cz-shortcut-listen="true">
+    <div id="mocha">
+        <ul id="mocha-stats">
+            <li class="progress"><canvas width="40" height="40"></canvas></li>
+            <li class="passes"><a href="javascript:void(0);">passes:</a> <em>0</em></li>
+            <li class="failures"><a href="javascript:void(0);">failures:</a> <em>0</em></li>
+            <li class="duration">duration: <em>0</em>s</li>
+        </ul>
+        <ul id="mocha-report"></ul>
+    </div>
+    <script>
+        mocha.run();
+    </script>
+
+
+
+</body>
+
+</html>
