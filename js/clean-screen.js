@@ -28,17 +28,18 @@ $(() => {
 
     $('#playground').append(circle);
 
-    // $('#circle').click(e => {
-    //   console.log(e.target);
-    //   //   console.log('adsf');
-    //   //   $('#circle').hide();
-    //   //   clearInterval(timer);
-    // });
-
-    $('#circle').click(function () {
-      let a = $(this).css('background-color');
-      console.log(a);
+    $('#circle').click(e => {
+      e.target.remove();
+      console.log(e.target);
+      //   console.log('adsf');
+      // $('#circle').remove();
+      //   clearInterval(timer);
     });
+
+    // $('#circle').click(function () {
+    //   let a = $(this).css('background-color');
+    //   console.log(a);
+    // });
 
     // console.log(selectedWidth, selectedGrowthAmount, selectedInterval);
   });
