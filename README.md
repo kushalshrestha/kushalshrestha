@@ -7,3 +7,11 @@
 - :link: Here's my [LinkedIn Profile](https://www.linkedin.com/in/kushal-shrestha).
 - :soccer: Game made for me: Football and Basketball.
 - :guitar: I like playing guitar.
+
+## NODE RESOURCES
+
+# Node Installation
+
+`npm install -g nodemon`
+
+`nodemon node/nodetest.js`
