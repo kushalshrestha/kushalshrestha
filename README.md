@@ -17,3 +17,5 @@
 `nodemon node/nodetest.js`
 
 `localhost:3000`
+
+Express tutorial : `nodemon server.js`
