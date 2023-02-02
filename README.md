@@ -15,3 +15,5 @@
 `npm install -g nodemon`
 
 `nodemon node/nodetest.js`
+
+`localhost:3000`

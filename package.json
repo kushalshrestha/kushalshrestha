@@ -1,0 +1,22 @@
+{
+  "name": "wap_project",
+  "version": "1.0.0",
+  "description": "Web Programming - Practice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kushalshrestha/kushalshrestha.github.io.git"
+  },
+  "author": "Kushal Shrestha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kushalshrestha/kushalshrestha.github.io/issues"
+  },
+  "homepage": "https://github.com/kushalshrestha/kushalshrestha.github.io#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
