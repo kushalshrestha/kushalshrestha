@@ -27,4 +27,11 @@ Express tutorial :
 - Express Assignment:
 
 * w3d5 assignment
+
+  `nodemon express/w3d5/q1/index.js`
+
+  `nodemon express/w3d5/q1/index.js`
+
+  `nodemon express/w3d5/q1/index.js`
+
   `nodemon express/w3d5/q1/index.js`
