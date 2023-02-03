@@ -35,3 +35,9 @@ Express tutorial :
   `nodemon express/w3d5/q1/index.js`
 
   `nodemon express/w3d5/q1/index.js`
+
+# EJS + Dog Template
+
+`npm install ejs --save`
+
+Resource to follow: https://blog.logrocket.com/how-to-use-ejs-template-node-js-application/#:~:text=EJS%20(Embedded%20JavaScript%20Templating)%20is,your%20Node%20application%20with%20EJS.

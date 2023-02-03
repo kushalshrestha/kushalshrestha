@@ -3,6 +3,7 @@ const app = express();
 const bparser = require('body-parser');
 const booksroute = require('./router');
 const path = require('path');
+app.set('view engine');
 
 app.use(bparser.urlencoded());
 app.use(express.json()); // send json object

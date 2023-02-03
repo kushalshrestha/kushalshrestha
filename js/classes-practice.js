@@ -95,3 +95,39 @@ console.log(Person.address);
 console.log(Student.address);
 Student.address = 'Satdobato, Lalitpur';
 console.log(Student.address);
+
+/*
+console.log('===exam=====');
+class Computer {
+  constructor(ram, cpu, storage) {
+    this.ram = ram;
+    this.cpu = cpu;
+    this.storage = storage;
+  }
+
+  runProgram(program) {
+    console.log('running: ' + program);
+  }
+}
+
+class Laptop extends Computer {
+  constructor(ram, cpu, storage, battery) {
+    super(ram, cpu, storage);
+    this.battery = battery;
+  }
+
+  carryAround() {
+    console.log(
+      'carrying laptop: cpu' + this.cpu +
+        ' ram: ' + this.ram +
+        ' storage: ' + this.storage +
+        ' battery: ' + this.battery
+    );
+  }
+}
+
+let l = new Laptop('8GB RAM', 'CPU', '512HD', 'BATTERY');
+console.log(l.runProgram('MS-WORD'));
+console.log(l.carryAround());
+
+*/
