@@ -12,10 +12,19 @@
 
 # Node Installation
 
+Node tutorial :
+
 `npm install -g nodemon`
 
 `nodemon node/nodetest.js`
 
 `localhost:3000`
 
-Express tutorial : `nodemon server.js`
+Express tutorial :
+
+`nodemon server.js`
+
+- Express Assignment:
+
+* w3d5 assignment
+  `nodemon express/w3d5/q1/index.js`
