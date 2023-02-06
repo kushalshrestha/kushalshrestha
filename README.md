@@ -39,6 +39,8 @@ Express tutorial :
 * w3d6 assignment
   `nodemon express/w3d6/q1/index.js`
 
+  `nodemon express/w3d6/q2/index.js`
+
 # EJS + Dog Template
 
 `npm install ejs --save`
