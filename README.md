@@ -47,7 +47,11 @@ Express tutorial :
 
 `npm install ejs --save`
 
-# Express Session
+# Express
+
+`npm install express -save`
+
+`npm install cookie-parser -save`
 
 `npm install express-session --save`
 
