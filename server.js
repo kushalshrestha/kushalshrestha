@@ -51,10 +51,10 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-// app.get('*', (req, res) => {
-//   res.status(404);
-//   res.send('Page not found');
-// });
+app.get('*', (req, res) => {
+  res.status(404);
+  res.send('Page not found');
+});
 
 app.use((req, res) => {
   res.status(404).res.send('Page not found');
