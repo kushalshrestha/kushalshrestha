@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cart</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Your Cart</h1>
+    <a href="/deletecookies">Clear Cart</a>
+    <div id="inventory"> 
+      <%for (item of cart){%>
+        <div class="product">
+          <h3><%= item.name%></h3>
+          <img src=<%= item.image%>>
+          <h5><%= item.toString()%></h5>
+        </div>
+      <%}%>
+    </div>
+
+  </body>
+</html>

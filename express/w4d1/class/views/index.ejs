@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <a href="/cart">Cart</a>
+    <div id="inventory"> 
+      <%for (item in items){%>
+        <div class="product">
+          <a href="/product?index=<%=item%>">
+            <h3><%= items[item].name%></h3>
+            <img src=<%= items[item].image%>>
+            <h5><%= items[item].price%></h5>
+          </a>
+        </div>
+      <%}%>
+    </div>
+
+  </body>
+</html>

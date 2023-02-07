@@ -1,0 +1,28 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#inventory{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: burlywood;
+}
+.product{
+  padding: 2%;
+  margin: 2%;
+  text-align: center;
+  background-color: bisque;
+}
+.product img{
+  width: 80%;
+}
+.product{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}

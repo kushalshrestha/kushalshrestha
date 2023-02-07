@@ -1,0 +1,18 @@
+<div id="container">
+    <table>
+        <tr>
+            <th>Key</th>
+            <th>Value</th>
+        </tr>
+        <% for (let key in cookieList) { %>
+            <tr>
+                <td>
+                    <%= key %>
+                </td>
+                <td>
+                    <%= cookieList[key] %>
+                </td>
+            </tr>
+            <% } %>
+    </table>
+</div>

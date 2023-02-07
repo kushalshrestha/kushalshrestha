@@ -45,7 +45,7 @@ app.get('/externalRedirect', (req, res) => {
 
 //two same routes - first one is taken (like if, else condition)
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Hello World!!!!');
 });
 app.get('/', (req, res) => {
   res.send('Hello World!');
