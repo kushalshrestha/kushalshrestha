@@ -50,6 +50,8 @@ Express tutorial :
 
   `nodemon express/w4d1/w3d5q4_continue`
 
+  `nodemon express/w4d1/w3d6_q3q4_continue`
+
 # EJS + Dog Template
 
 `npm install ejs --save`
