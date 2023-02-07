@@ -46,6 +46,10 @@ Express tutorial :
 * w4d1 class exercise + assignment
   `nodemon express/w4d1/class/app.js`
 
+  `nodemon express/w4d1/q1/app.js`
+
+  `nodemon express/w4d1/w3d5q4_continue`
+
 # EJS + Dog Template
 
 `npm install ejs --save`
