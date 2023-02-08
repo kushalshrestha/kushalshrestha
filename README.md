@@ -55,7 +55,11 @@ Express tutorial :
 * w4d2 class exercise + assignment
   `nodemon express/w4d1/w3d6_q3q4_continue` -> wd42/class exercise makes a request here
 
+  `nodemon express/w4d2/q1/app.js`
+
   `nodemon express/w4d2/q2/app.js`
+
+  `nodemon express/w4d2/q3/index.js`
 
 # EJS + Dog Template
 
