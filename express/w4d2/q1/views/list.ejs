@@ -8,17 +8,20 @@
 </head>
 
 <body>
-    <% if (Object.keys(list).length == 0) { %>
-    No people yet!
-    <% } else { %>
-    <ul>
-        <% for (key in list) { %>
-            <% let person = list[key]; %>
-            <li><%= person.fname + " " + person.lname + ", " + person.food %></li>
-        <% } // end for loop %>
-    </ul>
-    <% }  // end else %>
-    <a href="/">Add people</a>
+    <% if (Object.keys(list).length==0) { %>
+        No people yet!
+        <% } else { %>
+            <ul>
+                <% for (key in list) { %>
+                    <% let person=list[key]; %>
+                        <li>
+                            <%= person.fname + " " + person.lname + ", " + person.food + ", Arrival time: " +
+                                person.time%>
+                        </li>
+                        <% } // end for loop %>
+            </ul>
+            <% } // end else %>
+                <a href="/">Add people</a>
 </body>
 
 </html>
