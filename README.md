@@ -13,7 +13,7 @@
 ### Namaste :pray:
 
 - :student: I'm a masters student right now.
-- :computer: I'm a software engineer with 7+ years of experience, mostly in data field.
+- :computer: I'm a software engineer with 8+ years of experience, mostly in data field.
 - :speech_balloon: Ask me about SQL, JAVA, Python, JS.
 - :soccer: Game made for me: Football and Basketball.
 - :guitar: I like playing guitar.
